@@ -88,7 +88,12 @@ console.log(finalBarData)
 option = {
     
     title: {
-        //text: 'Portfolio Balance',
+        text: 'Bitcoin Value in Last 30 Days (Example)',
+        padding: [10, 60],
+        textStyle: {
+            color: 'white',
+            left: 20
+        },
     },
     tooltip : {
         formatter: function(object){
